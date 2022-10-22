@@ -4,10 +4,10 @@
 /**
  * main - Fizz-Buzz test
  * followed by a new line
- * Return: none
+ * Return: 0 (succes)
  */
 
-void main(void)
+int main(void)
 {
 	int i, j;
 
@@ -33,4 +33,5 @@ void main(void)
 		printf(" ");
 	}
 	printf("\n");
+	return (0);
 }
