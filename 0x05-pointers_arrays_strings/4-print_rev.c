@@ -3,15 +3,15 @@
 /**
  * print_rev - prints a string in reverse,
  * followed by a new line, to stdout
- * @str: parameter of type pointer
+ * @s: parameter of type pointer
  * Return: none
  */
 
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int i = 0;
 
-	while (str[i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
