@@ -20,10 +20,12 @@ void  puts_half(char *str)
 	if (i % 2 == 0)
 	{
 		j = i / 2;
+		j++;
 	}
 	else
 	{
 		j = (i - 1) / 2;
+		j++;
 	}
 
 	while (j < i)
