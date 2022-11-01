@@ -6,8 +6,8 @@
  * @s: array
  * @b: character to fill
  * @n:  unsigned interger
- * Returns: pointer to memory s
- **/
+ * Return: pointer to memory s
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
