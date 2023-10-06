@@ -21,11 +21,11 @@ int main(void)
 					putchar(n);
 					putchar(m);
 					putchar(a);
-				}
-				if (n != 55 || m != 56)
-				{
-					putchar(',');
-					putchar(' ');
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
