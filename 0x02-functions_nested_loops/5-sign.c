@@ -32,5 +32,5 @@ int print_sign(int n)
 
 	_putchar(s);
 
-	return (r);	
+	return (r);
 }
