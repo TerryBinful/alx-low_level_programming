@@ -10,4 +10,5 @@ bin
 obj
 *.cbp
 *.o
+*.layout
 
