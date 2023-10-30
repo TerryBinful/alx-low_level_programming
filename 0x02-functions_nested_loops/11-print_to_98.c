@@ -16,19 +16,21 @@ void print_to_98(int n)
 	int start = n;
 	int stop = 98;
 
-	while (start != stop)
+		if (start < stop)
 	{
-		if (start > stop)
-		{
-			printf("%d, ", start);
-			start--;
-		}
-		else
+		while (start < stop)
 		{
 			printf("%d, ", start);
 			start++;
 		}
 	}
-
-	printf("%d ", stop);
+	else if (start > stop)
+	{
+		while (start > stop)
+		{
+			printf("%d, ", start);
+			start--;
+		}
+	}
+	printf("d%\n", stop);
 }
